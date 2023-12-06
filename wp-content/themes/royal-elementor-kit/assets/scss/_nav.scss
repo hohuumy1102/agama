@@ -1,0 +1,30 @@
+.blog-menu {
+    nav {
+        .menu-item {
+            .wpr-menu-item {
+                border-radius: 10px;
+                background: rgba(0, 28, 73, 0.10);
+                height: 40px;
+                padding: 9px 24px!important;
+                font-family: var(--font-main);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                color: var(--black-blue);
+                text-align: center;
+                transition: all .3s ease-in-out;
+
+                &.wpr-active-menu-item {
+                    transition: all .3s ease-in-out;
+                    color: #ffffff!important;
+                    background-color: var(--blue);
+
+                }
+                &:hover, &:focus{
+                    color: var(--blue)!important;
+                }
+            }
+        }
+    }
+}
